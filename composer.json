@@ -1,0 +1,27 @@
+{
+    "name": "rmarsigli/filament-address",
+    "description": "A Address form plugin for Filament",
+    "license": "MIT",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Rmarsigli\\FilamentAddress\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rafhael Marsigli",
+            "email": "oi@rafhael.com.br"
+        }
+    ],
+    "require": {
+        "php": "^8.2"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rmarsigli\\FilamentAddress\\FilamentAddressServiceProvider"
+            ]
+        }
+    }
+}
