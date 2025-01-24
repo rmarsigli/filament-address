@@ -1,8 +1,13 @@
 {
     "name": "rmarsigli/filament-address",
-    "description": "A Address form plugin for Filament",
+    "description": "Address form plugin for Filament",
     "license": "MIT",
     "type": "library",
+    "homepage": "https://github.com/rmarsigli/filament-address",
+    "support": {
+        "issues": "https://github.com/rmarsigli/filament-address/issues",
+        "source": "https://github.com/rmarsigli/filament-address"
+    },
     "autoload": {
         "psr-4": {
             "Rmarsigli\\FilamentAddress\\": "src/"
@@ -15,7 +20,8 @@
         }
     ],
     "require": {
-        "php": "^8.2"
+        "php": "^8.2",
+        "laravel/framework": "^11.0"
     },
     "extra": {
         "laravel": {
@@ -23,5 +29,7 @@
                 "Rmarsigli\\FilamentAddress\\FilamentAddressServiceProvider"
             ]
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
